@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(229, 244, 251, 0.664),
+    rgba(172, 225, 234, 0.575)
+  );
+}
+
+.level1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+  width: 180px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 4px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(183, 225, 253, 0.5),
+    rgb(111, 172, 196, 0.5)
+  );
+}
+
+.level2 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(183, 225, 253, 0.5),
+    rgba(111, 172, 196, 0.5)
+  );
+  margin-left: 35px;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+.level1:hover,
+.level2:hover {
+  background: linear-gradient(
+    to right bottom,
+    rgb(183, 225, 253),
+    rgb(111, 172, 196)
+  );
+}
+
+.table {
+  margin-left: 5px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.row {
+  border-bottom: 1px solid #aaa;
+}
+
+.row:hover {
+  background-color: rgb(203, 231, 250);
+}
+
+.th1 {
+  width: 30px;
+}
+
+.th2,
+.th3 {
+  width: 150px;
+}
